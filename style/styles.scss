@@ -5,7 +5,7 @@ $tan: #F5D6BA;
 $dark-grey: #5F5858;
 
 body {
-  background-color: $primary-peach !important;
+  background-color: $primary-peach;
 }
 
 * {
@@ -47,11 +47,11 @@ body {
 .details {
   .mainVideoTitle {
     font-weight: bold;
-    color: $dark-peach !important;
+    color: $dark-peach;
     font-family: 'Rock Salt', cursive;
   }
   .mainVideoInfo {
-    color: $dark-peach !important;
+    color: $dark-peach;
     font-family: 'Raleway', sans-serif;
   }
 }
@@ -59,24 +59,24 @@ body {
 .list-group {
   background-color: $dark-peach;
   &-item {
-    background-color: $dark-peach !important;
-    border: none !important;
+    background-color: $dark-peach;
+    border: none;
     cursor: pointer;
     transition: all 200ms ease-in-out;
     &:hover {
       transform: scale(1.03);
       box-shadow: 0px 0px 15px black;
-      background-color: $tan !important;
+      background-color: $tan;
       z-index: 3;
       .media-heading {
-        color: $dark-peach !important;
+        color: $dark-peach;
       }
     }
   }
 }
 
 .media-heading {
-  color: $tan !important;
+  color: $tan;
 }
 .media-body {
   font-family: 'Raleway', sans-serif;

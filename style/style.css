@@ -1,5 +1,5 @@
 body {
-  background-color: #FFA987 !important; }
+  background-color: #FFA987; }
 
 * {
   color: #5F5858; }
@@ -33,29 +33,29 @@ body {
 
 .details .mainVideoTitle {
   font-weight: bold;
-  color: #E54B4B !important;
+  color: #E54B4B;
   font-family: 'Rock Salt', cursive; }
 .details .mainVideoInfo {
-  color: #E54B4B !important;
+  color: #E54B4B;
   font-family: 'Raleway', sans-serif; }
 
 .list-group {
   background-color: #E54B4B; }
   .list-group-item {
-    background-color: #E54B4B !important;
-    border: none !important;
+    background-color: #E54B4B;
+    border: none;
     cursor: pointer;
     transition: all 200ms ease-in-out; }
     .list-group-item:hover {
       transform: scale(1.03);
       box-shadow: 0px 0px 15px black;
-      background-color: #F5D6BA !important;
+      background-color: #F5D6BA;
       z-index: 3; }
       .list-group-item:hover .media-heading {
-        color: #E54B4B !important; }
+        color: #E54B4B; }
 
 .media-heading {
-  color: #F5D6BA !important; }
+  color: #F5D6BA; }
 
 .media-body {
   font-family: 'Raleway', sans-serif; }
